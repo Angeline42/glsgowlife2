@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+/* ------------- Menu styles---------------*/
+.menu a {
+float: left;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a:hover {
+  border-bottom: solid 1px #e67e22;
+}
+#index-h1{
+
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+#index-h1::after{
+    display: block;
+    content: "";
+    width: 150px;
+    height: 1px;
+    background-color: #e67e22;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+.hero-text{
+    padding-top: 70px;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+/*--------------- About us page---------------*/
+header > h1{
+    background-color:#e67e22;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+
+/*------------------ Contact us page-------------------*/
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row{
+    padding: 25px;
+    margin-top: 95px;
+  }
+
+  .column > img{
+    width: 70%;
+  }
+  .column:first-child{
+    padding-left: 300px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
